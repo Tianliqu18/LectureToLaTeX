@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+
+# VSCode settings
+.vscode/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+latexenv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+app.log*
+
+# Generated files
+notes_out/**/*.pdf
+notes_out/**/*.aux
+notes_out/**/*.fls
+notes_out/**/*.fdb_latexmk
+
+# Git backup
+.git.backup/

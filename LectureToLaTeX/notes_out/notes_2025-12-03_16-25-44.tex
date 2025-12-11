@@ -1,0 +1,34 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath, amssymb}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\begin{document}
+
+\section*{Analysis of the Integral}
+
+In this document, we analyze the following improper integral:
+
+\[
+\int_{-\infty}^{\infty} e^{x^2} \, dx
+\]
+
+\subsection*{Understanding the Integral}
+
+The integral above represents the integration of the function \( e^{x^2} \) with respect to \( x \) over the entire real line. Since the limits of integration are from \(-\infty\) to \( \infty \), this is an improper integral.
+
+\subsection*{Challenges in Evaluation}
+
+One of the main challenges in evaluating this integral directly is the presence of the function \( e^{x^2} \). The exponential of a square function does not have a simple antiderivative that can be expressed in terms of elementary functions. This complicates the integration process.
+
+\subsection*{Possible Approaches}
+
+To handle integrals of this nature, one typically resorts to special techniques or functions. For instance, a similar integral involving the Gaussian function \( e^{-x^2} \) can be evaluated using polar coordinates, leading to the well-known result:
+
+\[
+\int_{-\infty}^{\infty} e^{-x^2} \, dx = \sqrt{\pi}
+\]
+
+In contrast, the integral of \( e^{x^2} \) diverges as \( x \rightarrow \pm \infty \), making it improper for usual evaluation techniques without additional context or constraints (such as a factor ensuring convergence).
+
+\end{document}
